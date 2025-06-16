@@ -8,12 +8,12 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    // public function uas(){
-    //     return view('uas');
-    // }
-    // public function gaji(){
-    //     return view('gaji');
-    // }
+    public function uas(){
+        return view('uas');
+    }
+    public function gaji(){
+        return view('gaji');
+    }
     public function terima(Request $request)
     {
         $nama = $request->nama;
